@@ -1,0 +1,24 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
+import { HighlightDirective } from './highlight.directive';
+import { DecimalsDirective } from './decimals.directive';
+
+@NgModule({
+  imports: [ BrowserModule ],
+  declarations: [
+    AppComponent,
+    HighlightDirective,
+    DecimalsDirective
+  ],
+  bootstrap: [ AppComponent ]
+})
+export class AppModule { }
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
